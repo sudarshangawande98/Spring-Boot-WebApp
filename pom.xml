@@ -57,7 +57,11 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
+<<<<<<< Updated upstream
   <version>2.1.1-SNAPSHOT</version>
+=======
+  <version>1.0.1-SNAPSHOT</version>
+>>>>>>> Stashed changes
   <packaging>war</packaging>
 
   <name>my-app Maven Webapp</name>
