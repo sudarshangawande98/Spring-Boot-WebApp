@@ -20,6 +20,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 20px;
         }
         .card {
             background: white;
@@ -27,70 +28,44 @@
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease-in-out;
-            max-width: 550px;
+            max-width: 500px;
             width: 100%;
         }
-        .card:hover {
-            transform: scale(1.05);
-        }
         .profile-img-container {
-            width: 175px; 
-            height: 175px;
+            width: 150px; 
+            height: 150px;
             border-radius: 50%;
-            border: 4px solid #2575fc;
             overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             margin: 0 auto 15px;
         }
         .profile-img {
             width: 100%;
-            height: 200px;
+            height: 150px;
             object-fit: cover;
-            transform: translateY(15px);
-        }
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin: 15px 0;
         }
         .social-links a {
-            font-size: 28px;
+            font-size: 24px;
             color: #2575fc;
+            margin: 0 10px;
             transition: color 0.3s ease-in-out;
         }
         .social-links a:hover {
             color: #6a11cb;
         }
-        .skills {
-            font-size: 16px;
-            color: #444;
-            font-weight: 500;
-            margin-bottom: 15px;
-        }
         .btn-custom {
             background: #2575fc;
             color: white;
-            padding: 10px 20px;
+            padding: 10px;
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
-            transition: background 0.3s ease-in-out;
+            width: 48%;
             display: inline-block;
             text-align: center;
-            width: 45%;
+            margin-top: 10px;
         }
         .btn-custom:hover {
             background: #6a11cb;
-        }
-        .btn-container {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 15px;
         }
     </style>
 
@@ -105,37 +80,14 @@
             <img src="https://sudarshangawande.com/assets/img/perfil.png" alt="Sudarshan Gawande" class="profile-img">
         </div>
 
-        <h2 class="fw-bold mt-3">Hi, I'm Sudarshan Gawande</h2>
-        <p class="fw-bold text-primary">DevOps Engineer | Cloud & Automation Specialist</p>
+        <h2 class="fw-bold">Sudarshan Gawande</h2>
+        <p class="fw-bold text-primary">DevOps Engineer | Java Developer</p>
 
-        <!-- About Section -->
         <p>
-            🚀 I am a **DevOps Engineer** with expertise in **CI/CD, cloud computing, infrastructure automation, and security**. Dedicated to building **scalable, secure, and automated systems** that drive efficiency and reliability.
+            Experienced **DevOps & Java Engineer** with expertise in **CI/CD, cloud computing, infrastructure automation, and security**. Passionate about **scalable, secure, and automated systems**.
         </p>
 
-        <!-- Technical Expertise -->
-        <p class="skills">
-            <strong>💻 Java Development:</strong> Spring Boot, REST APIs, Microservices, MySQL, Oracle
-        </p>
-        <p class="skills">
-            <strong>⚙️ DevOps & Cloud Expertise:</strong>
-        </p>
-        <ul style="text-align: left; margin: auto; display: inline-block;">
-            <li>🔹 **Version Control:** Git | GitHub | Bitbucket</li>
-            <li>🔹 **CI/CD Pipelines:** Jenkins | GitLab CI/CD | JFrog Artifactory | Nexus</li>
-            <li>🔹 **Containerization & Orchestration:** Docker | Kubernetes</li>
-            <li>☁ **Cloud Platforms (AWS):** EC2 | VPC | Route 53 | ELB</li>
-            <li>🗄 **Storage & Databases:** S3 | EFS | RDS</li>
-            <li>🔄 **Automation & Security:** IAM | CloudFormation | CloudWatch | SNS</li>
-            <li>🏗 **Serverless & Event-Driven Services:** AWS Lambda</li>
-            <li>🔹 **Security & Monitoring:** SSL | SonarQube | Static Analysis | IAM Policies</li>
-            <li>🔹 **Infrastructure as Code & Automation:** Terraform | Bash | Shell</li>
-        </ul>
-
-        <!-- Passion & Approach -->
-        <p>
-            🚀 **Passion & Approach:** I am deeply passionate about automation, cloud-native development, and Infrastructure as Code (IaC). I continuously **learn, optimize, and innovate** to enhance system reliability, security, and performance.
-        </p>
+        <p><strong>Skills:</strong> Java, Spring Boot, Docker, Kubernetes, AWS, Terraform, Jenkins, Kafka</p>
 
         <!-- Social Media Links -->
         <div class="social-links">
@@ -144,9 +96,9 @@
         </div>
 
         <!-- Portfolio & Contact Buttons -->
-        <div class="btn-container">
+        <div>
             <a href="https://sudarshangawande.com" target="_blank" class="btn-custom"><i class="fas fa-globe"></i> Portfolio</a>
-            <a href="mailto:sudarshangawande98@gmail.com" class="btn-custom"><i class="fas fa-envelope"></i> Contact Me</a>
+            <a href="mailto:sudarshangawande98@gmail.com" class="btn-custom"><i class="fas fa-envelope"></i> Contact</a>
         </div>
     </div>
 
