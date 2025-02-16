@@ -47,9 +47,9 @@
         }
         .profile-img {
             width: 100%;
-            height: 200px; /* Increased height */
+            height: 200px;
             object-fit: cover;
-            transform: translateY(15px); 
+            transform: translateY(15px);
         }
         .social-links {
             display: flex;
@@ -106,17 +106,35 @@
         </div>
 
         <h2 class="fw-bold mt-3">Hi, I'm Sudarshan Gawande</h2>
-        <p class="fw-bold text-primary">DevOps Engineer | Java Developer | Cloud Enthusiast</p>
+        <p class="fw-bold text-primary">DevOps Engineer | Cloud & Automation Specialist</p>
 
         <!-- About Section -->
         <p>
-            🚀 Passionate **DevOps & Java Engineer** with expertise in **CI/CD Pipelines, Kubernetes, Docker, Spring Boot, WebRTC, Microservices, and Cloud Technologies**.
-            💡 Experienced in automating deployment workflows, managing scalable cloud infrastructure, and building robust backend systems.
+            🚀 I am a **DevOps Engineer** with expertise in **CI/CD, cloud computing, infrastructure automation, and security**. Dedicated to building **scalable, secure, and automated systems** that drive efficiency and reliability.
         </p>
 
-        <!-- Skills -->
+        <!-- Technical Expertise -->
         <p class="skills">
-            <strong>Key Skills:</strong> Kubernetes, Docker, AWS, Terraform, Spring Boot, Microservices, Jenkins, Kafka, WebRTC, PostgreSQL
+            <strong>💻 Java Development:</strong> Spring Boot, REST APIs, Microservices, MySQL, Oracle
+        </p>
+        <p class="skills">
+            <strong>⚙️ DevOps & Cloud Expertise:</strong>
+        </p>
+        <ul style="text-align: left; margin: auto; display: inline-block;">
+            <li>🔹 **Version Control:** Git | GitHub | Bitbucket</li>
+            <li>🔹 **CI/CD Pipelines:** Jenkins | GitLab CI/CD | JFrog Artifactory | Nexus</li>
+            <li>🔹 **Containerization & Orchestration:** Docker | Kubernetes</li>
+            <li>☁ **Cloud Platforms (AWS):** EC2 | VPC | Route 53 | ELB</li>
+            <li>🗄 **Storage & Databases:** S3 | EFS | RDS</li>
+            <li>🔄 **Automation & Security:** IAM | CloudFormation | CloudWatch | SNS</li>
+            <li>🏗 **Serverless & Event-Driven Services:** AWS Lambda</li>
+            <li>🔹 **Security & Monitoring:** SSL | SonarQube | Static Analysis | IAM Policies</li>
+            <li>🔹 **Infrastructure as Code & Automation:** Terraform | Bash | Shell</li>
+        </ul>
+
+        <!-- Passion & Approach -->
+        <p>
+            🚀 **Passion & Approach:** I am deeply passionate about automation, cloud-native development, and Infrastructure as Code (IaC). I continuously **learn, optimize, and innovate** to enhance system reliability, security, and performance.
         </p>
 
         <!-- Social Media Links -->
