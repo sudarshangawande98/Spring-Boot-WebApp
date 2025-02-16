@@ -106,17 +106,17 @@
         </div>
 
         <h2 class="fw-bold mt-3">Hi, I'm Sudarshan Gawande</h2>
-        <p class="fw-bold text-primary">DevOps Engineer | Java Developer | Cloud Enthusiast</p>
+        <p class="fw-bold text-primary">🚀 DevOps Engineer | Java Developer | Cloud & Automation Specialist</p>
 
         <!-- About Section -->
         <p>
-            🚀 Passionate **DevOps & Java Engineer** with expertise in **CI/CD Pipelines, Kubernetes, Docker, Spring Boot, WebRTC, Microservices, and Cloud Technologies**.
+            🚀 Passionate **DevOps & Java Engineer** with expertise in **CI/CD Pipelines, Kubernetes, Docker, Spring Boot, Microservices, and Cloud Technologies**.
             💡 Experienced in automating deployment workflows, managing scalable cloud infrastructure, and building robust backend systems.
         </p>
 
         <!-- Skills -->
         <p class="skills">
-            <strong>Key Skills:</strong> Kubernetes, Docker, AWS, Terraform, Spring Boot, Microservices, Jenkins, Kafka, WebRTC, PostgreSQL
+            <strong>Key Skills:</strong> Kubernetes, Docker, AWS, Terraform, Spring Boot, Microservices, Jenkins, Nexus, JFrog Artifactory, Git, Bitbucket, Ansible
         </p>
 
         <!-- Social Media Links -->
